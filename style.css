@@ -20,17 +20,17 @@ button {
 
 #container {
     width: 100%;
-    height: 100vh;
+    min-height: 100vh;
     display: flex;
     flex-direction: column;
-    align-items: stretch;
+    align-items: center;
     padding: 5rem;
     padding-top: 9rem;
 }
 
 #header {
     width: 100%;
-    height: 20rem;
+    height: 12rem;
 }
 
 #header img {
@@ -45,6 +45,9 @@ button {
 #content {
     flex: 1;
     width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 20rem;
 }
 
 .light {
@@ -64,5 +67,58 @@ h3 {
 }
 
 #title {
-    width: 65%;
+    width: 80%;
+}
+
+#skills {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    gap: 1.5rem;
+}
+
+#skills #list {
+    flex: 1;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+
+.list-item {
+    width: 15rem;
+    height: 15rem;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    background-color: hsla(211, 80%, 12%, 0.8);
+    border: 1px solid #404a55;
+    border-radius: 10px;
+    padding: 0.5rem;
+}
+
+.list-item .item-title {
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin-bottom: 0.5rem;
+    text-decoration: underline;
+}
+
+.list-item p {
+    font-size: 1.2rem;
+    color: hsl(210, 3%, 80%);
+}
+
+.list-item .item-images {
+    width: 100%;
+    flex: 1 0;
+    display: flex;
+    align-items: center;
+}
+
+.list-item .item-images img {
+    height: 2rem;
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+    border-radius: 10px;
 }
