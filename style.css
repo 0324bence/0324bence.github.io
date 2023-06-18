@@ -79,6 +79,7 @@ h3 {
 }
 
 #skills #list {
+    width: 90%;
     flex: 1;
     display: flex;
     flex-wrap: wrap;
@@ -86,8 +87,8 @@ h3 {
 }
 
 .list-item {
-    width: 15rem;
-    height: 15rem;
+    width: 16rem;
+    height: 16rem;
     display: flex;
     flex-direction: column;
     align-items: stretch;
@@ -98,7 +99,7 @@ h3 {
 }
 
 .list-item .item-title {
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     font-weight: 500;
     margin-bottom: 0.5rem;
     text-decoration: underline;
