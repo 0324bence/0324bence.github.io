@@ -138,12 +138,12 @@ h3 {
     justify-content: center;
 }
 
-.item-links a {
+a {
     word-wrap: break-word;
     color: rgb(89, 180, 255);
 }
 
-.item-links a:visited {
+a:visited {
     color: hsl(207, 100%, 45%);
 }
 
