@@ -131,11 +131,20 @@ h3 {
 }
 
 .list-item .item-links {
-    width: 100%;
+    max-width: 100%;
     flex: 1 0;
     display: flex;
     flex-direction: column;
     justify-content: center;
+}
+
+.item-links a {
+    word-wrap: break-word;
+    color: rgb(89, 180, 255);
+}
+
+.item-links a:visited {
+    color: hsl(207, 100%, 45%);
 }
 
 .list-item .item-images img {
