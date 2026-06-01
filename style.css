@@ -48,6 +48,7 @@ button {
     align-items: center;
     padding: 5rem;
     padding-top: 9rem;
+    padding-bottom: 2rem;
 }
 
 #header {
@@ -228,6 +229,10 @@ a:visited {
 
     #header img {
         height: 3rem;
+    }
+
+    #header .links {
+        justify-content: center;
     }
 
     h1 {
